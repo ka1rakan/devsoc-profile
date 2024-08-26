@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+
+    position: sticky;
+}
+
+nav > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.container {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.container > div {
+    width: 40vw;
+    height: 40vw;
+    background-color: black;
+}
