@@ -67,7 +67,6 @@ a > img {
 
 .container > div {
     width: 40vw;
-    /*height: 40vw; */
     background-color: #D9C7A3;
 
     padding: 20px;
@@ -88,6 +87,10 @@ a > img {
 
 #welcome > div > p {
     margin: 12px;
+}
+
+#welcome > div > p > a {
+    color: #000;
 }
 
 #about {
