@@ -78,19 +78,30 @@ a > img {
 }
 
 #welcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
     font-size: 0.8rem;
 }
 
+#welcome > h2 {
+    text-align: center;
+}
+
+#welcome > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #welcome > div > p {
-    margin: 12px;
+    margin: 10px;
+    width: 100%;
 }
 
 #welcome > div > p > a {
     color: #000;
+}
+
+#welcome > div > img {
+    width: 60%;
 }
 
 #about {
@@ -115,6 +126,11 @@ a > img {
 
 #about > img:hover {
     content: url(images/samurai.gif);
+}
+
+#about .imgcaption {
+    margin-top:-12px;
+    font-size: 0.6rem;
 }
 
 #projects {
