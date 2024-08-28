@@ -128,9 +128,13 @@ a > img {
     content: url(images/samurai.gif);
 }
 
-#about .imgcaption {
+.imgcaption {
     margin-top:-12px;
     font-size: 0.6rem;
+    text-align: center;
+}
+.imgcaption > a {
+    color: #000;
 }
 
 #projects {
